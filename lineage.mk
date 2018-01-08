@@ -1,7 +1,5 @@
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common.mk)
-
+# Inherit some common stuff.
 include build/make/target/product/aosp_arm64_ab.mk
 
-PRODUCT_NAME := lineage_arm64_ab
-PRODUCT_MODEL := Lineage on ARM64
+PRODUCT_NAME := aospa_arm64_ab
+PRODUCT_MODEL := AOSPA on ARM64
